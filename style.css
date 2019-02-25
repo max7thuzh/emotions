@@ -1,0 +1,48 @@
+body {
+  color: #444
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title, .paragraph {
+  margin: 1rem 0;
+}
+
+.title, .list {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+}
+
+.title, .subtitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.paragraph {
+  text-indent: 4rem;
+  font-size: 1.4rem;
+}
+
+.subtitle, .paragraph {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.list {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
